@@ -12,8 +12,8 @@ const Uipage = () => {
 
 
     return (
-        <div class="row py-3 px-5 mx-0">
-            <div class="col-lg-8 col-md-12">
+        <div class="row gap-6 py-3 px-5 mx-0">
+            <div class="col-lg-7 col-md-12">
                 <div class="">
                     <div class="card-body">
                         <h1 class="card-title font-bold">Investment Plans</h1>
@@ -99,6 +99,11 @@ const Uipage = () => {
                     <p className='font-semibold fs-6 text-sm pl-4' style={{ color: "#0000ff" }} >Choose your custom set of assets, and automate <br /> daily, weekly, twice a month, or monthly investments.</p>
                     <p className='font-semibold fs-6 text-sm pl-4'>72% Technology * 28% consumer</p>
                 </div>
+                {/* <div className='card w-100 mb-3 px-1 py-2' style={{ backgroundColor: "#e5eafd" }}>
+                    <h4 class="card-title font-bold pl-4 pt-4" style={{ color: "#0000ff" }} >Build your own investment Plan</h4>
+                    <p className='font-semibold fs-6 text-sm pl-4' style={{ color: "#0000ff" }} >Choose your custom set of assets, and automate <br /> daily, weekly, twice a month, or monthly investments.</p>
+                    <p className='font-semibold fs-6 text-sm pl-4'>72% Technology * 28% consumer</p>
+                </div> */}
 
             </div>
 
