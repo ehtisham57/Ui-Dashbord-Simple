@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,900&display=swap');
+
+.contmain{
+    background: -webkit-linear-gradient(#DD1C23, #3f0608);
+    height: max-content;
+    width: 100%;
+}
+.mainHeading{
+    text-align:center ;
+    color: #FFFFFF;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 68px;
+}
+.cardheading{
+    background:-webkit-linear-gradient(#DD1C23, #A00F15);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+}
+.mainCard{
+    padding: 10px;
+    background: black;
+}
+.bottomline{
+    width: 100%;
+    background:-webkit-linear-gradient(#DD1C23, #A00F15);
+    height: 2px;
+    margin: 10px 0;
+    margin-bottom: 30PX;
+}
+.listStyle{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15.38px;
+}
+.listStyleSpan{
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 15.38px;
+    background:-webkit-linear-gradient(#DD1C23, #A00F15);
+    -webkit-background-clip: text;
+    color: transparent;
+}
